@@ -14,7 +14,7 @@ and Lacroix et al. (2020).
      glac_covr: Glacier coverage [-]
      
      temperature response term f_t is given by:
-     f_t = exp(-Ea/R*(1/T-1/Tref))
+     ```f_t = exp(-Ea/R*(1/T-1/Tref))```
      
      with
      Ea:  apparent activation energy (depends on lithology)
@@ -24,8 +24,8 @@ and Lacroix et al. (2020).
 
  call as following:
  
- python weathering.py $ECHAM_INPUTFILE $ECHAM_GRIDINFO
+ ```python weathering.py $ECHAM_INPUTFILE $ECHAM_GRIDINFO```
  
  The weathering script can also be called through the shell script weathering.sh:
  
-  sh weathering.sh $ECHAM_INPUTFILE $ECHAM_GRIDINFO
+  ```sh weathering.sh $ECHAM_INPUTFILE $ECHAM_GRIDINFO```
