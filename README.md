@@ -22,20 +22,6 @@ and Lacroix et al. (2020).
      T: annual mean 2m air temperature in [K]
      Tref: 284.15K
 
-
- Use at least multiple year means of atmospheric data for smooth changes(!)
-
- Script contains and runs:
-
- readlithology()     Reads input data for the weathering model   ! called for Palmod
- readconstants()     Defines model parameters                    ! called for Palmod
- weatheringmain()    Weathering equations                        ! called for Palmod
- land2ocean_trans()  Parametrizes global land-to-ocean transformations  ! turned off for Palmod
- riv_spatial_distr() River input spatial distribution            ! turned off for Palmod
- summary()           Prints summary in konsole                   ! called for Palmod
- writeresults2nc()   Write nc file output                        ! called for Palmod
- main()              Calls everything                            ! called for Palmod
-
  option to change echam input files, call as following:
  python weathering.py $ECHAM_INPUTFILE $ECHAM_GRIDINFO
  
