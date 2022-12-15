@@ -22,8 +22,10 @@ and Lacroix et al. (2020).
      T: annual mean 2m air temperature in [K]
      Tref: 284.15K
 
- option to change echam input files, call as following:
+ call as following:
+ 
  python weathering.py $ECHAM_INPUTFILE $ECHAM_GRIDINFO
  
- The weathering script can also be called through the shell script weathering.sh:#
+ The weathering script can also be called through the shell script weathering.sh:
+ 
   sh weathering.sh $ECHAM_INPUTFILE $ECHAM_GRIDINFO
