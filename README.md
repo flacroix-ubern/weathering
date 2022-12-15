@@ -6,13 +6,16 @@ and Lacroix et al. (2020).
 
   The P weathering release (Pr) is calculated:                
      Pr = b * q *f_t * s * glac_covr
+     
      where
      q: annual runoff [mm/a]
      s: factor to correct for soil shielding
      b: empirical lithology dependent factors 
      glac_covr: Glacier coverage [-]
+     
      temperature response term f_t is given by:
      f_t = exp(-Ea/R*(1/T-1/Tref))
+     
      with
      Ea:  apparent activation energy (depends on lithology)
      R: gas constant [J/mol /K] 
